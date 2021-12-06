@@ -8,19 +8,8 @@ int main(){
     cin>>n;
 
     while(row<=n){
-        
-        //space printing
-        int space = (n-row);
-        while (space)
-        {
-            cout<<" ";
-            space--;
-        }
-
-        //star print
         int col=1;
-        while (col <= row)
-        {
+        while(col <= (n-row+1)){
             cout<<"*";
             col++;
         }

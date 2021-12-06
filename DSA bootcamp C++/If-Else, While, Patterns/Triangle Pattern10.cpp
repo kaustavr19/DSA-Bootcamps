@@ -8,14 +8,18 @@ int main(){
     cin>>n;
 
     while(row<=n){
-        int space = row-1;
+        
+        //space printing
+        int space = (n-row);
         while (space)
         {
             cout<<" ";
             space--;
         }
-        int col=row;
-        while (col<=n)
+
+        //star print
+        int col=1;
+        while (col <= row)
         {
             cout<<"*";
             col++;
