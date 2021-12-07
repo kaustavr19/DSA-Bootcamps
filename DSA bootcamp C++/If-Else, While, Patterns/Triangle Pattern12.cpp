@@ -17,7 +17,7 @@ int main(){
         int col=row;
         while (col<=n)
         {
-            cout<<"*";
+            cout<<row;
             col++;
         }
         cout<<endl;
