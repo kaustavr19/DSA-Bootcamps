@@ -36,6 +36,5 @@ int main(){
     
     cout<< "Max value is: " << getMax(num, size) << endl;
     cout<< "Min value is: " << getMin(num, size) << endl;
-    
     return 0;
 }
