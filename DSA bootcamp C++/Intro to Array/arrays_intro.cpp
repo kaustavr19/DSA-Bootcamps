@@ -54,4 +54,8 @@ int main(){
     cout << endl << "Everything is fine" << endl << endl;
     
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 768e76f9d836fa78eabd2d41568bcc577d11ddcb
